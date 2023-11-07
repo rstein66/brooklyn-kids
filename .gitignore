@@ -222,9 +222,39 @@ GitHub.sublime-settings
 # End of https://www.toptal.com/developers/gitignore/api/macos,sublimetext
 
 
-# RenPy related (best guesses)
+# RenPy
+#
+# Source: https://github.com/renpy/renpy/blob/master/.gitignore
 
-errors.txt
+# Compiled Ren'Py files.
+*.rpyc
+*.rpyb
+*.rpymc
+
+# Ren'Py log files.
 log.txt
-game/saves
-game/cache
+errors.txt
+traceback.txt
+lint.txt
+
+# Created directories.
+saves/
+tmp/
+cache/
+
+# Executables.
+/renpy.exe
+/renpy2.exe
+/renpy3.exe
+/renpy-32.exe
+
+/renpy.sh
+/renpy2.sh
+/renpy3.sh
+
+/renpy.app
+/renpy2.app
+/renpy3.app
+
+# Generated source.
+/renpy/vc_version.py
