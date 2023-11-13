@@ -28,6 +28,8 @@ My first [RenPy](https://www.renpy.org/doc/html/) story
   
 4. Select "brooklyn-kids" & then "Launch Project" on "renpy" application launch screen (see screenshot below)
 
+<img width="350" alt="renpy-launcher" src="https://github.com/rstein66/brooklyn-kids/assets/5504473/b7b8b693-18a4-4e7f-9fda-32acaceaae4a">
+
 
 ## Key File
 
