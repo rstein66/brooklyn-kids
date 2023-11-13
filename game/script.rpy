@@ -81,6 +81,7 @@ label ending:
     ollie "I should go before he sees me."
     hide kidback
     ollie "Thanks for hanging out with me!"
+    ollie "I hope to see you again soon!"
     hide otter
     show kidfront
     kit "Thanks for showing me your home!"
