@@ -32,11 +32,11 @@ label start:
 
     menu:
         ollie "What do you want to do first?"
-        "See who's taller?":
+        "See who's taller":
             hide otter with dissolve
             jump measure
 
-        "Go to Oyster City?":
+        "Go to Oyster City":
             jump oyster_city
 
 label measure:
@@ -52,14 +52,38 @@ label measure:
 label kit_is_taller_yay:
     scene otterkidmeasure
     kit "Me!"
-    return
+    ollie "Darn."
+    scene waterbackground
+    jump ending
 
 label kit_is_taller_sad:
     scene otterkidmeasure
     ollie "You 😕"
-    return
+    scene waterbackground
+    jump ending
 
 label oyster_city:
     scene oystercity
+    show otter
+    show kidback
+
+    ollie "Welcome to Oyster City!"
+    ollie "Oysters are really cool!"
+    ollie "They live with other oysters, together on reefs."
+    ollie "Oyster reefs are like apartment buildings because lots and lots of animals live in them."
+    ollie "Oysters also clean the water they live in. "
+    jump ending
+
+label ending:
+    show otter
+    show kidback
+    ollie "Oh! Is that your dad?"
+    ollie "I should go before he sees me."
+    hide kidback
+    ollie "Thanks for hanging out with me!"
+    hide otter
+    show kidfront
+    kit "Thanks for showing me your home!"
+    kit "Bye!"
 
 return
