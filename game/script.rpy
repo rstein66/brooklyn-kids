@@ -6,7 +6,6 @@
 define ollie = Character("Ollie", color="#c8ffc8")
 define kit = Character("Kit", color="#c8c8ff")
 
-
 # The game starts here.
 
 label start:

@@ -46,9 +46,11 @@ define build.name = "BrooklynKids"
 ## to the player by default. Setting one of these to False will hide the
 ## appropriate mixer.
 
-define config.has_sound = True
-define config.has_music = True
+define config.has_sound = False
+define config.has_music = False
 define config.has_voice = True
+
+define config.auto_voice = "voice/{id}.mp3"
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
