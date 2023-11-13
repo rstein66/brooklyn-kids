@@ -21,7 +21,7 @@ label start:
 
     show kidback
 
-    kit "Wooh! You can talk?! That's so cool!"
+    kit "Wow! You can talk?! That's so cool!"
     kit "I'm Kit! Do you really live here?!"
     ollie "Yes! Awesome, right?!"
     kit "Yes! I want to live here too!"
