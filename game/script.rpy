@@ -11,26 +11,55 @@ define kit = Character("Kit", color="#c8c8ff")
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene tunnel
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
 
     show otter
 
-    ollie "Hi, I'm Ollie the Otter! Welcome to my home, the Brooklyn Children's Museum! What's your name?"
+    ollie "Hi, I'm Ollie the Otter!"
+    ollie "Welcome to my home, the Brooklyn Children's Museum!"
+    ollie "What's your name?"
 
     show kidback
 
-    kit "Wooh! You can talk?! That's so cool! I'm Kit! Do you really live here?!"
-    ollie "It's! Awesome, right?!"
+    kit "Wooh! You can talk?! That's so cool!"
+    kit "I'm Kit! Do you really live here?!"
+    ollie "Yes! Awesome, right?!"
+    kit "Yes! I want to live here too!"
 
-    # This ends the game.
+    ollie "We don't have a lot of time before your dad comes back."
+    ollie "Do you want to see some of my favorite places?"
+    kit "Yes, please!"
 
+    menu:
+        ollie "What do you want to do first?"
+        "See who's taller?":
+            hide otter with dissolve
+            jump measure
+
+        "Go to Oyster City?":
+            jump oyster_city
+
+label measure:
+    scene ottermeasure
+
+    menu:
+        ollie "Who do you think is taller?"
+        "Kit":
+            jump kit_is_taller_yay
+        "Ollie":
+            jump kit_is_taller_sad
+
+label kit_is_taller_yay:
+    scene otterkidmeasure
+    kit "Me!"
     return
+
+label kit_is_taller_sad:
+    scene otterkidmeasure
+    ollie "You 😕"
+    return
+
+label oyster_city:
+    scene oystercity
+
+return
