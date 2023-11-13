@@ -3,8 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define ollie = Character("Ollie")
-define kit = Character("Kit")
+define ollie = Character("Ollie", color="#c8ffc8")
+define kit = Character("Kit", color="#c8c8ff")
 
 
 # The game starts here.
@@ -22,22 +22,14 @@ label start:
     # directory.
 
 
-    # These display lines of dialogue.
-    show kits
+    show otter
 
-    ## dialogue:
+    ollie "Hi, I'm Ollie the Otter! Welcome to my home, the Brooklyn Children's Museum! What's your name?"
 
-    kit "Wait up, ollie!"
-    kit "ollie!"
-    kit "I said wait up!"
-    kit "...ollie?"
-    ollie "Boo!"
-    kit "Yikes... not again."
-    kit "Are you scared?"
-    kit "Not at all."
-    kit "Running off like that is dangerous, you know."
-    kit "We are in the forest. We could get lost."
-    ollie "Okay okay mom. I won't do it again."
+    show kidback
+
+    kit "Wooh! You can talk?! That's so cool! I'm Kit! Do you really live here?!"
+    ollie "It's! Awesome, right?!"
 
     # This ends the game.
 
