@@ -55,7 +55,7 @@ My first [RenPy](https://www.renpy.org/doc/html/) story
 
 ### Images
 
-rstein66 is creator of files [`images`](game/images) not listed below. 
+rstein66 is the creator of the files in [`images`](game/images) that are not listed below. 
 
 
 | File Name | Source | License  | Date Accessed |
