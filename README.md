@@ -22,11 +22,15 @@ My first [RenPy](https://www.renpy.org/doc/html/) story
 
 1. Prereqs: (a) Python 3, (b) [RenPy](https://www.renpy.org/latest.html)
 
-2. Clone repo  
+2. Clone repo
+
+3. Open the "renpy" application. You should now see a Ren'Py Launcher window (on macOS).
   
-3. Run `$REPO_HOME/game/script.rpyc` _(verification needed)_
+4. Set "preferences"->"Projects Directory" to `../$REPO_HOME`. Then select "Return." (see screenshot below)
+
+<img width="600" alt="renpy-set-directory" src="https://github.com/rstein66/brooklyn-kids/assets/5504473/f69e4127-7b4a-44bd-ac59-2aa2a5d31db7">
   
-4. Select "brooklyn-kids" & then "Launch Project" on "renpy" application launch screen (see screenshot below)
+5. Select "brooklyn-kids" & then "Launch Project," (see screenshot below)
 
 <img width="350" alt="renpy-launcher" src="https://github.com/rstein66/brooklyn-kids/assets/5504473/b7b8b693-18a4-4e7f-9fda-32acaceaae4a">
 
